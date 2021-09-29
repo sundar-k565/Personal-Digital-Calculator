@@ -1,0 +1,60 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#f6c 15%, rgba(0,0,0,0) 16%), radial-gradient(#6cf 15%, rgba(0,0,0,0) 16%), #fc0;
+  background-position: 0 0, 30px 30px;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: 60px 60px;
+  font-family: 'Scratch' , sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  width: 320px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -160px;
+  margin-top: -200px;
+  background-color: #131b23;
+  border-radius: 30px;
+  box-shadow: 10px 10px 3px grey;
+}
+
+#title {
+  color: #e9f1f7;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.textBox {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+#buttons {
+  margin-left: -19.5px;
+}
+
+.btn {
+  width: 60px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.end{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
